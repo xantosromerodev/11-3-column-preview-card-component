@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- etiquetas meta -->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Santos Romero" />
+    <!-- estilos -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon" />
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- titulo -->
+    <title>3 Column Preview Card Component | 100 days of projects</title>
+
+    <style>
+        .btn-hover-1 {
+            color: hsl(31, 77%, 52%);
+            border: 2px solid white;
+        }
+
+        .btn-hover-2 {
+            color: hsl(184, 100%, 22%);
+            border: 2px solid white;
+        }
+
+        .btn-hover-3 {
+            color: hsl(179, 100%, 13%);
+            border: 2px solid white;
+        }
+
+        .btn-hover:hover {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+    </style>
+
+</head>
+
+<body class="bg-light">
+    <section class="container-fluid d-flex align-items-center min-vh-100 min-vh-lg-100">
+        <div class="row justify-content-center p-2">
+            <div class="col-12 col-sm-4 col-md-3 bg-primary custom-rounded-top custom-rounded-start">
+                <div class="card border-0 text-white bg-primary p-4">
+                    <div class="card-header border-0">
+                        <img src="images/icon-sedans.svg" alt="Sedans Icon">
+                    </div>
+                    <div class="card-body text-light">
+                        <h1 class="text-uppercase">Sedans</h1>
+                        <p class="py-4">Choose a sedan for its affordability and excellent fuel economy. Ideal for
+                            cruising in the
+                            city or on your next road trip. </p>
+                        <button type="button" class="btn btn-light rounded-pill btn-hover-1 btn-hover">Learn
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 bg-secondary">
+                <div class="card border-0 text-white bg-secondary p-4">
+                    <div class="card-header border-0">
+                        <img src="images/icon-suvs.svg" alt="Suvs Icon">
+                    </div>
+                    <div class="card-body text-light">
+                        <h1 class="text-uppercase">Suvs</h1>
+                        <p class="py-4">Take an SUV for its spacious interior, power, and versatility. Perfect for your
+                            next family
+                            vacation and off-road adventures.</p>
+                        <button type="button" class="btn btn-light rounded-pill btn-hover-2 btn-hover">Learn
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 bg-success custom-rounded-bottom custom-rounded-end">
+                <div class="card border-0 text-white bg-success p-4">
+                    <div class="card-header border-0">
+                        <img src="images/icon-luxury.svg" alt="Luxury Icon">
+                    </div>
+                    <div class="card-body text-light">
+                        <h1 class="text-uppercase">Luxury</h1>
+                        <p class="py-4">Cruise in the best car brands without the bloated prices. Enjoy the enhanced
+                            comfort of a
+                            luxury rental and arrive in style.</p>
+                        <button type="button" class="btn btn-light rounded-pill btn-hover-3 btn-hover">Learn
+                            More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
